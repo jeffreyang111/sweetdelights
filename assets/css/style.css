@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("../images/22.jpeg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+     /* The image used */
+    background-image: url("../images/24.jpeg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+	opacity: .75;
+}
+
+.nav-item {
+	font-size: 20px;
+	font-color: black;
+}
+
+
+.container-bg h1 {
+    text-align: center;
+    font-size: 8em;
+    padding-top: 150px;
+    font-family: 'Satisfy', cursive;
+}
+
+.container-bg h2 {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 4em;
+}
+
+
+h2 {
+    text-align:center;
+    font-family: 'Satisfy', cursive;
+    font-size: 4em;
+
+}
+
+.aboutp {
+    text-align:center;
+    font-family: 'Satisfy', cursive;
+    font-size: 2em;
+
+}
+
+footer {
+    width:100%;
+    height: 100px;
+    background-color: black;
+}
+
+
+
+.contact {
+    color:white;
+    text-align:center;
+}
+
+.contact1 {
+    color:white;
+    text-align:center;
+}
+
+.gallery {
+
+     /* The image used */
+    background-image: url("../images/39.jpeg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
