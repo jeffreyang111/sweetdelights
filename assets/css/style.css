@@ -9,26 +9,18 @@ body, html {
 }
 
 .bg { 
-    /* The image used */
+ 
     background-image: url("../images/22.jpeg");
-
-    /* Full height */
     height: 100%; 
-
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .about {
-     /* The image used */
+    
     background-image: url("../images/24.jpeg");
-
-    /* Full height */
     height: 100%; 
-
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,21 +84,32 @@ footer {
 
 .gallery {
 
-     /* The image used */
     background-image: url("../images/39.jpeg");
-
-    /* Full height */
     height: 100%; 
-
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
+.team {
 
+    background-image: url("../images/40.jpeg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
+}
+
+.card2 {
+    opacity:.75;
+}
+
+.teampic {
+    width:150px;
+    height:150px;
+}
 
 
 
