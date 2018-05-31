@@ -163,11 +163,45 @@ footer {
     margin-right: auto;
 }
 
+.card1 {
+    transition: all .2s ease-in-out;
+}
+
+.card1:hover {
+    transform: scale(1.1);
+}
+
 #nav {
 position: fixed;
 z-index: 10;
 width:100%;
 }
+
+.container-form {
+    border:solid;
+    border-color: #4290ae;
+    border-width: 4px;
+}
+
+.fa-heart {
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -179,12 +213,21 @@ width:100%;
     }
 }
 
+   
 
 /*// Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) { ... }
+@media (max-width: 767.98px) { 
+
+ 
+
+}
 
 /*// Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) { ... }
+@media (max-width: 991.98px) {
+
+    
+    
+}
 
 /*// Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199.98px) { ... }
