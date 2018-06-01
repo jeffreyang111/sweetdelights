@@ -40,7 +40,7 @@ body, html {
 
 .container-bg h1 {
     text-align: center;
-    font-size: 8em;
+    font-size: 8em; 
     padding-top: 150px;
     font-family: 'Satisfy', cursive;
 }
@@ -48,21 +48,30 @@ body, html {
 .container-bg h2 {
     text-align: center;
     font-family: 'Satisfy', cursive;
-    font-size: 4em;
+    font-size: 4em; 
 }
 
 
 h2 {
     text-align:center;
-    font-family: 'Satisfy', cursive;
+    font-family: 'nirvana';
     font-size: 4em;
 
 }
 
+h5 {
+    color: #6ca6cd;
+}
+
 .aboutp {
     text-align:center;
-    font-family: 'Satisfy', cursive;
     font-size: 2em;
+    font-family: 'Satisfy', cursive;
+
+}
+
+.teamnames {
+    font-family: 'Satisfy', cursive;
 
 }
 
@@ -148,7 +157,7 @@ footer {
 
 
 .card2 {
-    opacity:.75;
+   background-color: #c2bfba;
 }
 
 .teampic {
@@ -162,6 +171,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 .card1 {
     transition: all .2s ease-in-out;
@@ -186,12 +196,49 @@ width:100%;
 .fa-heart {
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
+  font-size: 80px;
+  color:#6ba4be;
+}
+
+
+.card-title {
+    font-family: "silver";
+    font-size: 2.5em;
+    text-decoration: none;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover { 
+    color: blue; 
+    text-decoration: none; 
+    font-weight: none 
+}
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  
 }
 
 
 
 
 
+
+/*downloaded fonts*/
+@font-face {
+    font-family: "silver";
+    src:url("../fonts/silver.otf");
+}
+
+@font-face {
+    font-family: "nirvana";
+    src:url("../fonts/nirvana.ttf");
+}
 
 
 
@@ -211,7 +258,18 @@ width:100%;
     .card2 {
         height: 80px;
     }
+
+    .card-title {
+        font-size:2em;
+    }
+
+    .card-text {
+        font-size:14px;
+    }
+
+
 }
+
 
    
 
